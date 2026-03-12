@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Smart Health Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    
+
+    <h1>Smart Symptom Checker</h1>
+
+    <p>Select your symptoms:</p>
+
+
+    
+    <select id="symptomSelect">
+        <option value="">--Choose a symptom--</option>
+        <option value="headache">Headache</option>
+        <option value="fever">Fever</option>
+        <option value="cough">Cough</option>
+        <option value="chest pain">Chest Pain</option>
+        <option value="fatigue">Fatigue</option>
+        <option value="sore throat">Sore Throat</option>
+    </select>
+    
+   
+    
+    <div id="result"></div>
+    
+    <button id="doctorBtn" onclick="findHospital()" style="display:none;">
+        Find Nearby Hospitals
+    </button>
+
+
+    <button onclick="checkSymptoms()">Check Symptoms</button>
+
+    <div id="result"></div>
+
+    <div id="result"></div>
+    
+    
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
